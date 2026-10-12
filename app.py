@@ -45,8 +45,8 @@ with col2:
     esr = st.number_input("ESR (mm/h)", min_value=1.0, max_value=200.0, value=30.0, step=1.0)
     crp = st.number_input("CRP (mg/L)", min_value=0.1, max_value=500.0, value=20.0, step=0.1)
     igg = st.number_input("IgG (g/L)", min_value=0.1, max_value=100.0, value=10.0, step=0.1)
-    cl = st.number_input("Chloride (mmol/L)", min_value=70.0, max_value=200.0, value=105.0, step=0.1)
-    na = st.number_input("Sodium (mmol/L)", min_value=100.0, max_value=180.0, value=138.0, step=0.1)
+    cl = st.number_input("Cl (mmol/L)", min_value=70.0, max_value=200.0, value=105.0, step=0.1)
+    na = st.number_input("Na (mmol/L)", min_value=100.0, max_value=180.0, value=138.0, step=0.1)
 
 st.markdown("---")
 
